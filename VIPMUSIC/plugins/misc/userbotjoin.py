@@ -31,7 +31,7 @@ async def join_group(client, message):
     ):
         try:
             await userbot.join_chat(message.chat.username)
-            await done.edit_text("**✅ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ.**")
+            await done.edit_text("**🫳🏻🐣 𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 𝑉𝑎𝑛𝑡ℎ𝑒𝑎𝑛 𝑚𝑎𝑚𝑒𝑎 🫂💫**")
 
         except InviteRequestSent:
             try:
@@ -39,13 +39,13 @@ async def join_group(client, message):
             except Exception:
                 pass
         except Exception as e:
-            await done.edit_text("**ɪ ɴᴇᴇᴅ ᴀᴅᴍɪɴ ᴘᴏᴡᴇʀ ᴛᴏ ᴜɴʙᴀɴ ɪɴᴠɪᴛᴇ ᴍʏ ᴀssɪsᴛᴀɴᴛ!**")
+            await done.edit_text("**𝐴𝑑𝑚𝑖𝑛 𝑃𝑜𝑑𝑢 𝐷𝑎 𝑚𝑎𝑛𝑔𝑎 🙄✨**")
 
     # Condition 2: Group username is present, bot is admin, and Userbot is not banned
     if message.chat.username and chat_member.status == ChatMemberStatus.ADMINISTRATOR:
         try:
             await userbot.join_chat(message.chat.username)
-            await done.edit_text("**✅ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ.**")
+            await done.edit_text("**🫳🏻🐣 𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 𝑉𝑎𝑛𝑡ℎ𝑒𝑎𝑛 𝑚𝑎𝑚𝑒𝑎 🫂💫**")
         except InviteRequestSent:
             try:
                 await app.approve_chat_join_request(chat_id, userbot_id)
@@ -66,7 +66,7 @@ async def join_group(client, message):
                 await done.edit_text("**ᴀssɪsᴛᴀɴᴛ ɪs ᴜɴʙᴀɴɴɪɴɢ...**")
                 await userbot.join_chat(message.chat.username)
                 await done.edit_text(
-                    "**ᴀssɪsᴛᴀɴᴛ ᴡᴀs ʙᴀɴɴᴇᴅ, ʙᴜᴛ ɴᴏᴡ ᴜɴʙᴀɴɴᴇᴅ, ᴀɴᴅ ᴊᴏɪɴᴇᴅ ᴄʜᴀᴛ ✅**"
+                    "**𝑈𝑛𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑦𝑎𝑐ℎ𝑢 𝐷𝑒𝑖 𝐴𝑑𝑚𝑖𝑛𝑢𝑢 𝑁𝑎𝑙𝑙𝑎 𝑖𝑟𝑢𝑝𝑎 𝑝𝑜𝑑𝑎 🥹🤌🏻**"
                 )
             except InviteRequestSent:
                 try:
@@ -75,7 +75,7 @@ async def join_group(client, message):
                     pass
             except Exception as e:
                 await done.edit_text(
-                    "**ғᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ, ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ʙᴀɴ ᴘᴏᴡᴇʀ ᴀɴᴅ ɪɴᴠɪᴛᴇ ᴜsᴇʀ ᴘᴏᴡᴇʀ ᴏʀ ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ ᴍᴀɴᴜᴀʟʟʏ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ ʙʏ /userbotjoin**"
+                    "**𝐵𝑎𝑛 𝑃𝑒𝑟𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐾𝑢𝑑𝑢𝑛𝑔𝑎 𝑑𝑎 𝐴𝑑𝑚𝑖𝑛𝑢𝑢𝑢 🤌🏻✨ 𝑒𝑛 𝑝𝑎𝑛𝑔𝑎𝑙𝑖𝑦𝑎 𝑁𝑎𝑛𝑒𝑎 𝑈𝑛𝑎𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑘𝑎𝑟𝑒𝑎𝑛 🥹🫀 /userbotjoin**"
                 )
         return
 
@@ -84,7 +84,7 @@ async def join_group(client, message):
         not message.chat.username
         and not chat_member.status == ChatMemberStatus.ADMINISTRATOR
     ):
-        await done.edit_text("**ɪ ɴᴇᴇᴅ ᴀᴅᴍɪɴ ᴘᴏᴡᴇʀ ᴛᴏ ɪɴᴠɪᴛᴇ ᴍʏ ᴀssɪsᴛᴀɴᴛ.**")
+        await done.edit_text("**𝐴𝑑𝑚𝑖𝑛 𝑃𝑜𝑑𝑢 𝐷𝑎 𝑚𝑎𝑛𝑔𝑎 🙄✨**")
 
     # Condition 5: Group username is not present/group is private, bot is admin
     if (
@@ -98,17 +98,17 @@ async def join_group(client, message):
                     ChatMemberStatus.BANNED,
                     ChatMemberStatus.RESTRICTED,
                 ]:
-                    await done.edit_text("**✅ ᴀssɪsᴛᴀɴᴛ ᴀʟʀᴇᴀᴅʏ ᴊᴏɪɴᴇᴅ.**")
+                    await done.edit_text("**🫳🏻🐣 𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 𝑉𝑎𝑛𝑡ℎ𝑒𝑎𝑛 𝑚𝑎𝑚𝑒𝑎 🫂💫**")
                     return
             except Exception as e:
-                await done.edit_text("**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ɪɴᴠɪᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ**.")
-                await done.edit_text("**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ɪɴᴠɪᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ**...")
+                await done.edit_text("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑢 𝑑𝑎 𝑉𝑎𝑟𝑢𝑣𝑒𝑎𝑛 🚶🏻‍♂🫴🏻💙**.")
+                await done.edit_text("**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑢 𝑑𝑎 𝑉𝑎𝑟𝑢𝑣𝑒𝑎𝑛 🚶🏻‍♂🫴🏻💙**...")
                 invite_link = await app.create_chat_invite_link(
                     chat_id, expire_date=None
                 )
                 await asyncio.sleep(2)
                 await userbot.join_chat(invite_link.invite_link)
-                await done.edit_text("**✅ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.**")
+                await done.edit_text("**🫳🏻🐣 𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 𝑉𝑎𝑛𝑡ℎ𝑒𝑎𝑛 𝑚𝑎𝑚𝑒𝑎 🫂💫**")
         except InviteRequestSent:
             try:
                 await app.approve_chat_join_request(chat_id, userbot_id)
@@ -116,7 +116,7 @@ async def join_group(client, message):
                 pass
         except Exception as e:
             await done.edit_text(
-                f"**➻ ᴀᴄᴛᴜᴀʟʟʏ ɪ ғᴏᴜɴᴅ ᴛʜᴀᴛ ᴍʏ ᴀssɪsᴛᴀɴᴛ ʜᴀs ɴᴏᴛ ᴊᴏɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴀɴᴅ ɪ ᴀᴍ ɴᴏᴛ ᴀʙʟᴇ ᴛᴏ ɪɴᴠɪᴛᴇ ᴍʏ ᴀssɪsᴛᴀɴᴛ ʙᴇᴄᴀᴜsᴇ [ ɪ ᴅᴏɴᴛ ʜᴀᴠᴇ  ɪɴᴠɪᴛᴇ ᴜsᴇʀ ᴀᴅᴍɪɴ ᴘᴏᴡᴇʀ ] sᴏ ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴍᴇ ɪɴᴠɪᴛᴇ ᴜsᴇʀs ᴀᴅᴍɪɴ ᴘᴏᴡᴇʀ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ ʙʏ- /userbotjoin.**\n\n**➥ ɪᴅ »** @{userbot.username}"
+                f"**𝐴𝑑𝑚𝑖𝑛 𝑃𝑜𝑑𝑢 𝐷𝑎 𝑚𝑎𝑛𝑔𝑎 🙄✨ /userbotjoin.**\n\n**➥ ɪᴅ »** @{userbot.username}"
             )
 
     # Condition 6: Group username is not present/group is private, bot is admin and Userbot is banned
@@ -132,7 +132,7 @@ async def join_group(client, message):
             try:
                 await app.unban_chat_member(chat_id, userbot.id)
                 await done.edit_text(
-                    "**ᴀssɪsᴛᴀɴᴛ ɪs ᴜɴʙᴀɴɴᴇᴅ**\n**ᴛʏᴘᴇ ᴀɢᴀɪɴ:- /userbotjoin.**"
+                    "**𝑈𝑛𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑦𝑎𝑐ℎ𝑢 𝐷𝑒𝑖 𝐴𝑑𝑚𝑖𝑛𝑢𝑢 𝑁𝑎𝑙𝑙𝑎 𝑖𝑟𝑢𝑝𝑎 𝑝𝑜𝑑𝑎 🥹🤌🏻**\n**ᴛʏᴘᴇ ᴀɢᴀɪɴ:- /userbotjoin.**"
                 )
                 invite_link = await app.create_chat_invite_link(
                     chat_id, expire_date=None
@@ -140,7 +140,7 @@ async def join_group(client, message):
                 await asyncio.sleep(2)
                 await userbot.join_chat(invite_link.invite_link)
                 await done.edit_text(
-                    "**ᴀssɪsᴛᴀɴᴛ ᴡᴀs ʙᴀɴɴᴇᴅ, ɴᴏᴡ ᴜɴʙᴀɴɴᴇᴅ, ᴀɴᴅ ᴊᴏɪɴᴇᴅ ᴄʜᴀᴛ✅**"
+                    "**🐣 𝑂𝑟𝑢𝑣𝑎𝑙𝑖𝑦𝑎 𝑉𝑎𝑙𝑖𝑦𝑎 𝑈𝑛𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑡ℎ𝑎𝑛𝑔𝑎 🫂💫🫀**"
                 )
             except InviteRequestSent:
                 try:
@@ -150,7 +150,7 @@ async def join_group(client, message):
 
             except Exception as e:
                 await done.edit_text(
-                    f"**➻ ᴀᴄᴛᴜᴀʟʟʏ ɪ ғᴏᴜɴᴅ ᴛʜᴀᴛ ᴍʏ ᴀssɪsᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ ᴀɴᴅ ɪ ᴀᴍ ɴᴏᴛ ᴀʙʟᴇ ᴛᴏ ᴜɴʙᴀɴ ᴍʏ ᴀssɪsᴛᴀɴᴛ ʙᴇᴄᴀᴜsᴇ [ ɪ ᴅᴏɴᴛ ʜᴀᴠᴇ  ʙᴀɴ ᴘᴏᴡᴇʀ ] sᴏ ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴍᴇ ʙᴀɴ ᴘᴏᴡᴇʀ ᴏʀ ᴜɴʙᴀɴ ᴍʏ ᴀssɪsᴛᴀɴᴛ ᴍᴀɴᴜᴀʟʟʏ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ ʙʏ- /userbotjoin.**\n\n**➥ ɪᴅ »** @{userbot.username}"
+                    f"**𝐵𝑎𝑛 𝑃𝑒𝑟𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐾𝑢𝑑𝑢𝑛𝑔𝑎 𝑑𝑎 𝐴𝑑𝑚𝑖𝑛𝑢𝑢𝑢 🤌🏻✨ 𝑒𝑛 𝑝𝑎𝑛𝑔𝑎𝑙𝑖𝑦𝑎 𝑁𝑎𝑛𝑒𝑎 𝑈𝑛𝑎𝑏𝑎𝑛 𝑃𝑎𝑛𝑛𝑖𝑘𝑎𝑟𝑒𝑎𝑛 🥹🫀  /userbotjoin.**\n\n**➥ ɪᴅ »** @{userbot.username}"
                 )
         return
 
@@ -161,7 +161,7 @@ async def leave_one(client, message):
         userbot = await get_assistant(message.chat.id)
         await userbot.leave_chat(message.chat.id)
         await app.send_message(
-            message.chat.id, "**✅ ᴜsᴇʀʙᴏᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴇғᴛ ᴛʜɪs Chat.**"
+            message.chat.id, "**🤧🤧 𝑃𝑜𝑖𝑡ℎ𝑢 𝑉𝑎 𝑈𝑠𝑒𝑟𝑏𝑜𝑡 𝑃𝑎𝑛𝑔𝑎𝑙𝑖🥹🫀**"
         )
     except Exception as e:
         print(e)
