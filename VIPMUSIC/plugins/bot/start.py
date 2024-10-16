@@ -55,7 +55,7 @@ async def ban_new(client, message):
     chat_name = message.chat.title if message.chat.title else ""
     if await is_banned_user(user_id):
         try:
-            alert_message = f"😳"
+            alert_message = f"😻"
             BAN = await message.chat.ban_member(user_id)
             if BAN:
                 await message.reply_text(alert_message)
@@ -68,7 +68,7 @@ async def ban_new(client, message):
 async def start_comm(client, message: Message, _):
     chat_id = message.chat.id
     await add_served_user(message.from_user.id)
-    await message.react("🕊️")
+    await message.react("😻")
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
@@ -231,37 +231,45 @@ async def start_comm(client, message: Message, _):
 
         try:
             out = music_start_panel(_)
-            vip = await message.reply_text(f"**ᴅιиg ᴅσиg ꨄ︎❣️.....**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎.❣️....**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎..❣️...**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎...❣️..**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎....❣️.**")
-            await vip.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎.....❣️**")
+            vip = await message.reply_text(f"**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑆𝑡𝑎𝑟𝑡 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨.....**")
+            await vip.edit_text(f"**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑆𝑡𝑎𝑟𝑡 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨....**")
+            await vip.edit_text(f"**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑆𝑡𝑎𝑟𝑡 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨...**")
+            await vip.edit_text(f"**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑆𝑡𝑎𝑟𝑡 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨..**")
+            await vip.edit_text(f"**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑆𝑡𝑎𝑟𝑡 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨.**")
+            await vip.edit_text(f"**𝑊𝑎𝑖𝑡 𝑃𝑎𝑛𝑛𝑟𝑎 🥹 𝑆𝑡𝑎𝑟𝑡 𝐴𝑔𝑎𝑛𝑢𝑚 🤌🏻💙✨**")
 
             await vip.delete()
-            vips = await message.reply_text("**⚡ѕ**")
+            vips = await message.reply_text("**😻 𝑆**")
             await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕт**")
+            await vips.edit_text("**😻 𝑆𝑡**")
             # await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтα**")
+            await vips.edit_text("**😻 𝑆𝑡𝑎**")
             #  await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαя**")
+            await vips.edit_text("**😻 𝑆𝑡𝑎𝑟**")
             # await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαят**")
+            await vips.edit_text("**😻 𝑆𝑡𝑎𝑟𝑡**")
             # await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαятι**")
+            await vips.edit_text("**😻 𝑆𝑡𝑎𝑟𝑡𝑖**")
             # await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαятιи**")
+            await vips.edit_text("**😻 𝑆𝑡𝑎𝑟𝑡𝑖𝑛**")
             # await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαятιиg**")
+            await vips.edit_text("**😻 𝑆𝑡𝑎𝑟𝑡𝑖𝑛𝑔**")
             # await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαятιиg.**")
+            await vips.edit_text("**😻 𝐶**")
             await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαятιиg....**")
+            await vips.edit_text("**😻 𝐶𝑢**")
             await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαятιиg.**")
+            await vips.edit_text("**😻 𝐶𝑢𝑡**")
             await asyncio.sleep(0.1)
-            await vips.edit_text("**⚡ѕтαятιиg....**")
+            await vips.edit_text("**😻 𝐶𝑢𝑡𝑒**")
+            await asyncio.sleep(0.1)
+            await vips.edit_text("**😻 𝐶𝑢𝑡𝑒 𝑔**")
+            await asyncio.sleep(0.1)
+            await vips.edit_text("**😻 𝐶𝑢𝑡𝑒 𝑔𝑖**")
+            await asyncio.sleep(0.1)
+            await vips.edit_text("**😻 𝐶𝑢𝑡𝑒 𝑔𝑖𝑟**")
+            await asyncio.sleep(0.1)
+            await vips.edit_text("**😻 𝐶𝑢𝑡𝑒 𝑔𝑖𝑟𝑙**")
             if message.chat.photo:
 
                 userss_photo = await app.download_media(
