@@ -338,14 +338,14 @@ async def music_helper_cb(client, CallbackQuery, _):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="🔰ᴏᴡɴᴇʀ🔰", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="🍷 𝐎𖾟𖽡𖽞𖾖 😻", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="📍sᴜᴅᴏᴇʀs📍", url=f"https://t.me/{app.username}?start=sudo"
+                text="🍷 𝐒𖽪𖽴𖽙 😻", url=f"https://t.me/{app.username}?start=sudo"
             ),
         ],
         [
-            InlineKeyboardButton(text="🎁ɪɴsᴛᴀ🎁", url=f"instagram.com/the.vip.boy"),
-            InlineKeyboardButton(text="💲ʏᴏᴜᴛᴜʙᴇ💲", url=f"youtube.com/@THE_VIP_BOY"),
+            InlineKeyboardButton(text="🍷 𝐊𖽹𖽡ɢ𖽴𖽙𖾕 😻", url=f"https://t.me/izzy_tamil_junction"),
+            InlineKeyboardButton(text="🍷 𝐒𖽪𖽳𖽳𖽙𖽷𖾓 😻", url=f"https://t.me/tamil_chat_unique_galaxy"),
         ],
         [
             InlineKeyboardButton(text="🔙 Back", callback_data="about")
@@ -486,15 +486,15 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
 async def back_button_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
-            InlineKeyboardButton(text="🎭ᴏᴡɴᴇʀ🎭", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="🍷 𝐎𖾟𖽡𖽞𖾖 😻", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="🌱ɢɪᴛʜᴜʙ🌱",
-                url="https://github.com/THE-VIP-BOY-OP",
+                text="🍷 𝐎𖾟𖽡𖽞𖾖 😻",
+                url="https://t.me/Itz_alpha_dude",
             ),
         ],
         [
-            InlineKeyboardButton(text="⛅ɢʀᴏᴜᴘ⛅", url=f"{config.SUPPORT_GROUP}"),
-            InlineKeyboardButton(text="🎄ᴄʜᴀɴɴᴇʟ🎄", url=f"{config.SUPPORT_CHANNEL}"),
+            InlineKeyboardButton(text="🍷 𝐊𖽹𖽡ɢ𖽴𖽙𖾕 😻", url=f"{config.SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="🍷 𝐒𖽪𖽳𖽳𖽙𖽷𖾓 😻", url=f"{config.SUPPORT_CHANNEL}"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
