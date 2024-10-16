@@ -25,7 +25,7 @@ def command(commands: Union[str, List[str]]):
 async def brah(_, msg):
     chat_id = msg.chat.id
     try:
-        await msg.reply("**😍ᴠɪᴅᴇᴏ ᴄʜᴀᴛ sᴛᴀʀᴛᴇᴅ🥳**")
+        await msg.reply("**🍷 𝑽𝒄 𝒔𝒕𝒂𝒓𝒕 𝒑𝒂𝒏𝒏𝒊𝒕𝒉𝒂𝒏𝒈𝒂 𝒅𝒂 𝒑𝒂𝒏𝒈𝒖 😻**")
         await VIP.st_stream(chat_id)
         await set_loop(chat_id, 0)
     except Exception as e:
@@ -49,7 +49,7 @@ async def get_group_call(
             ).full_chat
         if full_chat is not None:
             return full_chat.call
-    await app.send_message(f"No group ᴠᴏɪᴄᴇ ᴄʜᴀᴛ Found** {err_msg}")
+    await app.send_message(f"**🍷 𝑫𝒂𝒊 𝒂𝒅𝒎𝒊𝒏 𝒈𝒓𝒑 𝒍𝒂 𝒗𝒄 𝒌𝒂𝒏𝒏𝒐 𝒅𝒂 😻** {err_msg}")
     return False
 
 
@@ -60,7 +60,7 @@ async def start_group_call(c: Client, m: Message):
     ass = await assistant.get_me()
     assid = ass.id
     if assistant is None:
-        await app.send_message(chat_id, "ᴇʀʀᴏʀ ᴡɪᴛʜ ᴀꜱꜱɪꜱᴛᴀɴᴛ")
+        await app.send_message(chat_id, "🍷 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒌𝒐𝒍𝒂𝒓𝒖  𝑨𝒂𝒊𝒕𝒉𝒂𝒏 𝒅𝒂 𝒔𝒂𝒎𝒃𝒖 𝒎𝒂𝒗𝒂𝒏𝒆𝒂 😻")
         return
     msg = await app.send_message(chat_id, "ꜱᴛᴀʀᴛɪɴɢ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ..")
     try:
@@ -74,7 +74,7 @@ async def start_group_call(c: Client, m: Message):
                 random_id=assistant.rnd_id() // 9000000000,
             )
         )
-        await msg.edit_text("ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ꜱᴛᴀʀᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ⚡️~!")
+        await msg.edit_text("𝑉𝑎𝑛𝑡ℎ𝑢 𝐾𝑎𝑑ℎ𝑎𝑙 𝑃𝑎𝑛𝑛𝑢𝑛𝑔𝑎 𝑉𝑐 𝐿𝑎 𝐷𝑜𝑙𝑖 & 𝐷𝑜𝑙𝑎𝑛𝑠 🫶🏻🫴🏻🤍")
     except ChatAdminRequired:
         try:
             await app.promote_chat_member(
@@ -115,11 +115,11 @@ async def start_group_call(c: Client, m: Message):
                     can_promote_members=False,
                 ),
             )
-            await msg.edit_text("ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ꜱᴛᴀʀᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ⚡️~!")
+            await msg.edit_text("🍷 𝑫𝒂𝒊 𝒂𝒅𝒎𝒊𝒏 𝒗𝒄 𝒔𝒕𝒂𝒓𝒕 𝒑𝒂𝒏𝒏𝒊𝒕𝒉𝒂 𝒖𝒏𝒏𝒂 𝒎𝒂𝒂𝒓𝒊 𝒏𝒂𝒍𝒂 𝒗𝒂 𝒚𝒂𝒓𝒖 𝒊𝒍𝒍𝒂 𝒅𝒂 😻")
             await VIP.st_stream(chat_id)
             await set_loop(chat_id, 0)
         except:
-            await msg.edit_text("ɢɪᴠᴇ ᴛʜᴇ ʙᴏᴛ ᴀʟʟ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ⚡")
+            await msg.edit_text("𝑘𝑢𝑑𝑢𝑡𝑎")
 
 
 @app.on_message(filters.command(["vcend", "endvc"], ["/", "!"]))
@@ -129,20 +129,20 @@ async def stop_group_call(c: Client, m: Message):
     ass = await assistant.get_me()
     assid = ass.id
     if assistant is None:
-        await app.send_message(chat_id, "ᴇʀʀᴏʀ ᴡɪᴛʜ ᴀꜱꜱɪꜱᴛᴀɴᴛ")
+        await app.send_message(chat_id, "🍷 𝑨𝒔𝒔𝒊𝒔𝒕𝒂𝒏𝒕 𝒌𝒐𝒍𝒂𝒓𝒖  𝑨𝒂𝒊𝒕𝒉𝒂𝒏 𝒅𝒂 𝒔𝒂𝒎𝒃𝒖 𝒎𝒂𝒗𝒂𝒏𝒆𝒂 😻")
         return
-    msg = await app.send_message(chat_id, "ᴄʟᴏꜱɪɴɢ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ..")
+    msg = await app.send_message(chat_id, "🤧💫 𝑉𝑐 𝐸𝑣𝑎𝑛𝑑𝑎 𝐸𝑛𝑑 𝑃𝑎𝑛𝑛𝑢𝑛𝑎𝑡ℎ𝑢 🥹🤌🏻")
     try:
         if not (
             group_call := (
                 await get_group_call(
-                    assistant, m, err_msg=", ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀʟʀᴇᴀᴅʏ ᴇɴᴅᴇᴅ"
+                    assistant, m, err_msg=", 🍷 𝑉𝑐 𝑒𝑛𝑑 𝑝𝑎𝑛𝑛𝑎 𝑟𝑜𝑚𝑏𝑎 𝑛𝑒𝑟𝑎𝑚 𝑎𝑐ℎ𝑢 😻"
                 )
             )
         ):
             return
         await assistant.invoke(DiscardGroupCall(call=group_call))
-        await msg.edit_text("ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴄʟᴏꜱᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ⚡️~!")
+        await msg.edit_text("🤧💫 𝑉𝑐 𝐸𝑣𝑎𝑛𝑑𝑎 𝐸𝑛𝑑 𝑃𝑎𝑛𝑛𝑢𝑛𝑎𝑡ℎ𝑢 🥹🤌🏻")
     except Exception as e:
         if "GROUPCALL_FORBIDDEN" in str(e):
             try:
@@ -163,7 +163,7 @@ async def stop_group_call(c: Client, m: Message):
                 if not (
                     group_call := (
                         await get_group_call(
-                            assistant, m, err_msg=", ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴀʟʀᴇᴀᴅʏ ᴇɴᴅᴇᴅ"
+                            assistant, m, err_msg=", 🍷 𝑉𝑐 𝑒𝑛𝑑 𝑝𝑎𝑛𝑛𝑎 𝑟𝑜𝑚𝑏𝑎 𝑛𝑒𝑟𝑎𝑚 𝑎𝑐ℎ𝑢 😻"
                         )
                     )
                 ):
@@ -183,8 +183,8 @@ async def stop_group_call(c: Client, m: Message):
                         can_promote_members=False,
                     ),
                 )
-                await msg.edit_text("ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴄʟᴏꜱᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ⚡️~!")
+                await msg.edit_text("🤧💫 𝑉𝑐 𝐸𝑣𝑎𝑛𝑑𝑎 𝐸𝑛𝑑 𝑃𝑎𝑛𝑛𝑢𝑛𝑎𝑡ℎ𝑢 🥹🤌🏻")
                 await VIP.st_stream(chat_id)
                 await set_loop(chat_id, 0)
             except:
-                await msg.edit_text("ɢɪᴠᴇ ᴛʜᴇ ʙᴏᴛ ᴀʟʟ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ")
+                await msg.edit_text("🍷 𝑫𝒂𝒊 𝒂𝒅𝒎𝒊𝒏 𝒗𝒄 𝒔𝒕𝒂𝒓𝒕 𝒑𝒂𝒏𝒏𝒊𝒕𝒉𝒂 𝒖𝒏𝒏𝒂 𝒎𝒂𝒂𝒓𝒊 𝒏𝒂𝒍𝒂 𝒗𝒂 𝒚𝒂𝒓𝒖 𝒊𝒍𝒍𝒂 𝒅𝒂 😻")
