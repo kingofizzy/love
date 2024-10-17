@@ -47,7 +47,7 @@ async def stop_music(cli, message: Message):
     if await is_maintenance() is False:
         if message.from_user.id not in SUDOERS:
             return await message.reply_text(
-                "Bot is under maintenance. Please wait for some time..."
+                "🍷 𝐶𝑢𝑡𝑒 𝐺𝑖𝑟𝑙 𝐾𝑢 𝑂𝑑𝑎𝑚𝑏𝑢 𝑆𝑎𝑟𝑖 🥺 𝑂𝑗𝑗𝑖𝑖 𝑃𝑜𝑑𝑎 𝑃𝑜𝑟𝑒𝑎𝑛 𝐴𝑝𝑚 𝑉𝑎𝑟𝑒𝑎𝑛 😻"
             )
     if not len(message.command) < 2:
         if extra_plugins_enabled:
@@ -132,21 +132,25 @@ async def assistant_banned(client: app, member: ChatMemberUpdated):
         if get.status in [ChatMemberStatus.BANNED]:
 
             # Assistant bot has been banned
-            remove_by = member.from_user.mention if member.from_user else "𝐔ɴᴋɴᴏᴡɴ 𝐔sᴇʀ"
+            remove_by = member.from_user.mention if member.from_user else "🍷 𝐔𖽪𝙺𖽡𖽙𖽮 𝐔𖾗𖽞𖽷 😻"
             chat_id = member.chat.id
             title = member.chat.title
             username = (
-                f"@{member.chat.username}" if member.chat.username else "𝐏ʀɪᴠᴀᴛᴇ 𝐂ʜᴀᴛ"
+                f"@{member.chat.username}" if member.chat.username else "🍷 𝐏𖽷𖽹ᵥ𖽖𖾓𖽞  𝐂𖽻𖽖𖾓 😻"
             )
 
             # Construct message
             left_message = (
-                f"╔══❰#𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁_𝗕𝗮𝗻𝗻𝗲𝗱❱══❍⊱❁۪۪\n║\n"
-                f"║┣⪼ **𝐂ʜᴀᴛ »** {title}\n║\n"
-                f"║┣⪼ **𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ »** {userbot.id}\n║\n"
-                f"║┣⪼ **𝐍ᴀᴍᴇ »** @{userbot.username}\n║\n"
-                f"║┣⪼ **𝐁ᴀɴ 𝐁ʏ »** {remove_by}\n"
-                f"╚══════════════════❍⊱❁"
+                f" **☆ . * ● ¸ . ✦ .✩○☆° :. ★ * • ○ ° ★**</b>\n\n<b>"
+                f" **     🦋‌𝆺𝅥𓆩〭〬𝐂𖽪֟፝‌𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 ‌𝆺𝅥😻⤍🖤 **</b>\n\n<b>"
+                f" **         𝐴𝑠𝑠𝑖𝑠𝑡𝑎𝑛𝑡 𝐵𝑎𝑛𝑛𝑒𝑑 ** </b>\n\n<b>"
+                f" ** ➽───────────────────❥**</b>\n\n<b>"
+                f" **🍷 𝐂𖽻𖽖𖾓 😻 ** {title}</b>\n\n<b>"
+                f" ** 🍷𝐀𖾗𖾗 𝐈𖽴 😻 ** {userbot.id}</b>\n\n<b>"
+                f" ** 🍷 𝐍𖽖𖽧𖽞 😻 ** @{userbot.username}</b>\n\n<b>"
+                f" ** 🍷 𝐁𖽖𖽡 𝐁𝚢 😻 ** {remove_by}</b>\n\n<b>"
+                f" **➽───────────────────❥**</b>\n\n<b>"
+                f" ** ☆ . * ● ¸ . ✦ .✩○☆° :. ★ * • ○ ° ★ **</b>\n\n<b>"
             )
 
             # Create keyboard for unban button
@@ -154,7 +158,7 @@ async def assistant_banned(client: app, member: ChatMemberUpdated):
                 [
                     [
                         InlineKeyboardButton(
-                            "✨𝐔𝐧𝐛𝐚𝐧 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭✨",
+                            "🍷 𝐔𖽡𖽜𖽖𖽡 𝐀𖾗𖾗𖽹𖾗𖾓𖽖𖽡𖾓  😻",
                             callback_data="unban_userbot",
                         )
                     ]
@@ -237,7 +241,7 @@ async def assistant_left(client: app, member: ChatMemberUpdated):
 async def brah(_, msg):
     chat_id = msg.chat.id
     try:
-        await msg.reply("**😍ᴠɪᴅᴇᴏ ᴄʜᴀᴛ sᴛᴀʀᴛᴇᴅ🥳**")
+        await msg.reply("**𝑉𝑎𝑛𝑡ℎ𝑢 𝐾𝑎𝑑ℎ𝑎𝑙 𝑃𝑎𝑛𝑛𝑢𝑛𝑔𝑎 𝑉𝑐 𝐿𝑎 𝐷𝑜𝑙𝑖 & 𝐷𝑜𝑙𝑎𝑛𝑠 🫶🏻🫴🏻🤍**")
         await VIP.st_stream(chat_id)
         await set_loop(chat_id, 0)
     except Exception as e:
@@ -249,7 +253,7 @@ async def brah(_, msg):
 async def brah2(_, msg):
     chat_id = msg.chat.id
     try:
-        await msg.reply("**😕ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ᴇɴᴅᴇᴅ💔**")
+        await msg.reply("**🤧💫 𝑉𝑐 𝐸𝑣𝑎𝑛𝑑𝑎 𝐸𝑛𝑑 𝑃𝑎𝑛𝑛𝑢𝑛𝑎𝑡ℎ𝑢 🥹🤌🏻**")
         await VIP.st_stream(chat_id)
         await set_loop(chat_id, 0)
     except Exception as e:
