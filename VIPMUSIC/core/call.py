@@ -1,4 +1,4 @@
-#
+ni#
 # Copyright (C) 2024 by THE-VIP-BOY-OP@Github, < https://github.com/THE-VIP-BOY-OP >.
 #
 # This file is part of < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC > project,
@@ -310,7 +310,7 @@ class Call(PyTgCalls):
         stream = (
             MediaStream(
                 out,
-                audio_parameters=AudioQuality.320,
+                audio_parameters=AudioQuality.HIGH,
                 video_parameters=VideoQuality.SD_1080p,
                 ffmpeg_parameters=f"-ss {played} -to {duration}",
             )
