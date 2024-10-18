@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/THE-VIP-BOY-OP/Extra-Plugin",
+    "https://github.com/crazyworld-izzy/Extra-Plugin",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -75,7 +75,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002066328009"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1808943146").split())
+    map(int, getenv("OWNER_ID", "7078122796").split())
 )  # Input type must be interger
 
 
