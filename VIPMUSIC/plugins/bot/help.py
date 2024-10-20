@@ -489,7 +489,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="🍷 𝐎𖾟𖽡𖽞𖾖 😻", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
                 text="🍷 𝐎𖾟𖽡𖽞𖾖 😻",
-                url="https://t.me/Itz_alpha_dude",
+                url="https://t.me/li_xiaoyu_fan",
             ),
         ],
         [
