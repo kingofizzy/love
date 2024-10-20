@@ -142,7 +142,7 @@ async def stop_group_call(c: Client, m: Message):
         ):
             return
         await assistant.invoke(DiscardGroupCall(call=group_call))
-        await msg.edit_text("🤧💫 𝑉𝑐 𝐸𝑣𝑎𝑛𝑑𝑎 𝐸𝑛𝑑 𝑃𝑎𝑛𝑛𝑢𝑛𝑎𝑡ℎ𝑢 🥹🤌🏻")
+        await msg.edit_text("🤧💫 𝑆𝑜𝑛𝑔 𝐸𝑣𝑎𝑛𝑑𝑎 𝐸𝑛𝑑 𝑃𝑎𝑛𝑛𝑢𝑛𝑎𝑡ℎ𝑢 🥹🤌🏻")
     except Exception as e:
         if "GROUPCALL_FORBIDDEN" in str(e):
             try:
@@ -183,7 +183,7 @@ async def stop_group_call(c: Client, m: Message):
                         can_promote_members=False,
                     ),
                 )
-                await msg.edit_text("🤧💫 𝑉𝑐 𝐸𝑣𝑎𝑛𝑑𝑎 𝐸𝑛𝑑 𝑃𝑎𝑛𝑛𝑢𝑛𝑎𝑡ℎ𝑢 🥹🤌🏻")
+                await msg.edit_text("🤧💫 𝑆𝑜𝑛𝑔 𝐸𝑣𝑎𝑛𝑑𝑎 𝐸𝑛𝑑 𝑃𝑎𝑛𝑛𝑢𝑛𝑎𝑡ℎ𝑢 🥹🤌🏻")
                 await VIP.st_stream(chat_id)
                 await set_loop(chat_id, 0)
             except:
