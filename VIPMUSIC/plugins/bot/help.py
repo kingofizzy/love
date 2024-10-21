@@ -189,9 +189,9 @@ async def help_button(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ ʙᴀᴄᴋ", callback_data=f"help_back({prev_page_num})"
+                        text="🍷 𝐁𖽖𖽝𝚔😻", callback_data=f"help_back({prev_page_num})"
                     ),
-                    InlineKeyboardButton(text="🔄 ᴄʟᴏsᴇ", callback_data="close"),
+                    InlineKeyboardButton(text="🍷 𝐂𖾘𖽙𖾗𖾝  😻", callback_data="close"),
                 ],
             ]
         )
@@ -348,7 +348,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="🍷 𝐒𖽪𖽳𖽳𖽙𖽷𖾓 😻", url=f"https://t.me/tamil_chat_unique_galaxy"),
         ],
         [
-            InlineKeyboardButton(text="🔙 Back", callback_data="about")
+            InlineKeyboardButton(text="🍷 𝐁𖽖𖽝𝚔😻", callback_data="about")
         ],  # Use a default label for the back button
     ]
     await callback_query.message.edit_text(
@@ -386,38 +386,38 @@ async def music_callback(client: Client, callback_query: CallbackQuery):
                 InlineKeyboardButton(text="🍷 𝐀𖽴𖾕𖽹𖽡 😻", callback_data="music_callback hb1"),
                 InlineKeyboardButton(text="🍷 𝐀𖽪𖾓𖽻 😻", callback_data="music_callback hb2"),
                 InlineKeyboardButton(
-                    text="Bʀᴏᴀᴅᴄᴀsᴛ", callback_data="music_callback hb3"
+                    text="🍷 𝐁𖾜𖽙𖽖𖽴𖽝𖽖𖾗𖾓 😻", callback_data="music_callback hb3"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="Bʟ-Cʜᴀᴛ", callback_data="music_callback hb4"
+                    text="🍷 𝐁𖾘 𝐂𖽻𖽖𖾓😻", callback_data="music_callback hb4"
                 ),
                 InlineKeyboardButton(
-                    text="Bʟ-Usᴇʀ", callback_data="music_callback hb5"
+                    text="🍷 𝐁𖾘 𝐔𖾗𖽞𖾖𖾗 😻", callback_data="music_callback hb5"
                 ),
-                InlineKeyboardButton(text="C-Pʟᴀʏ", callback_data="music_callback hb6"),
+                InlineKeyboardButton(text="🍷 𝐂 𖽳𖾘𖽖𝚈 😻", callback_data="music_callback hb6"),
             ],
             [
-                InlineKeyboardButton(text="G-Bᴀɴ", callback_data="music_callback hb7"),
-                InlineKeyboardButton(text="Lᴏᴏᴘ", callback_data="music_callback hb8"),
+                InlineKeyboardButton(text="🍷 𝐆 𖽜𖽖𖽡😻", callback_data="music_callback hb7"),
+                InlineKeyboardButton(text="🍷 𝐋𖽙𖽙𖽳😻", callback_data="music_callback hb8"),
                 InlineKeyboardButton(
-                    text="Mᴀɪɴᴛᴇɴᴀɴᴄᴇ", callback_data="music_callback hb9"
-                ),
-            ],
-            [
-                InlineKeyboardButton(text="Pɪɴɢ", callback_data="music_callback hb10"),
-                InlineKeyboardButton(text="Pʟᴀʏ", callback_data="music_callback hb11"),
-                InlineKeyboardButton(
-                    text="Sʜᴜғғʟᴇ", callback_data="music_callback hb12"
+                    text="🍷 𝐌𖽖𖽹𖽡𖾓𖽞𖽡𖽖𖽝𖽞 😻", callback_data="music_callback hb9"
                 ),
             ],
             [
-                InlineKeyboardButton(text="Sᴇᴇᴋ", callback_data="music_callback hb13"),
-                InlineKeyboardButton(text="Sᴏɴɢ", callback_data="music_callback hb14"),
-                InlineKeyboardButton(text="Sᴘᴇᴇᴅ", callback_data="music_callback hb15"),
+                InlineKeyboardButton(text="🍷 𝐩𖽹𖽡𝚐 😻", callback_data="music_callback hb10"),
+                InlineKeyboardButton(text="🍷 𝐏𖾘𖽖ʏ 😻", callback_data="music_callback hb11"),
+                InlineKeyboardButton(
+                    text="🍷 𝐒𖽻𖽪𝙵𝙵𖾘𖽞😻", callback_data="music_callback hb12"
+                ),
             ],
-            [InlineKeyboardButton(text="✯ ʙᴀᴄᴋ ✯", callback_data=f"feature")],
+            [
+                InlineKeyboardButton(text="🍷 𝐒𖽞𖽞𝙺 😻", callback_data="music_callback hb13"),
+                InlineKeyboardButton(text="🍷 𝐒𖽙𖽡𝙶 😻", callback_data="music_callback hb14"),
+                InlineKeyboardButton(text="🍷 𝐒𖽳𖽞𖽞𖽴 😻", callback_data="music_callback hb15"),
+            ],
+            [InlineKeyboardButton(text="🍷 𝐁𖽖𖽝𝚔😻", callback_data=f"feature")],
         ]
     )
 
@@ -440,7 +440,7 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="🍷 𝐌𖽪𖾗𖽹𖽝 😻", callback_data="music"),
             InlineKeyboardButton(text="🍷 𝐀𖾘𖾘 😻", callback_data="settings_back_helper"),
         ],
-        [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
+        [InlineKeyboardButton(text="🍷 𝐇𖽙𖽧𖽞 😻", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
         f"**Wᴇʟᴄᴏᴍᴇ ᴛᴏ** {app.mention}\n\n**Exᴘʟᴏʀᴇ ᴀ ᴡɪᴅᴇ ʀᴀɴɢᴇ ᴏғ ғᴇᴀᴛᴜʀᴇs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ᴇɴʜᴀɴᴄᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴇxᴘᴇʀɪᴇɴᴄᴇ. Tᴀᴘ KIDNAP ME IN YOUR NEW GROUP OR CHANNEL ᴛᴏ ɪɴᴠɪᴛᴇ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ᴏᴡɴ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴇɴɪᴏʏ sᴇᴀᴍʟᴇss ᴍᴜsɪᴄ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ. Usᴇ ᴛʜᴇ MUSIC ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss ᴀʟʟ ᴛʜᴇ ᴍᴜsɪᴄ-ʀᴇʟᴀᴛᴇᴅ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛɪᴇs, ғʀᴏᴍ sᴛʀᴇᴀᴍɪɴɢ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢs ᴛᴏ ᴄʀᴇᴀᴛɪɴɢ ᴘʟᴀʏʟɪsᴛs. Lᴏᴏᴋɪɴɢ ғᴏʀ ᴍᴏʀᴇ ᴏᴘᴛɪᴏɴs? Hɪᴛ ᴛʜᴇ ALL ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴇᴠᴇʀʏᴛʜɪɴɢ ᴛʜɪs ʙᴏᴛ ᴄᴀɴ ᴏғғᴇʀ. Wʜᴇɴᴇᴠᴇʀ ʏᴏᴜ'ʀᴇ ʀᴇᴀᴅʏ, sɪᴍᴘʟʏ ᴛᴀᴘ HOME ᴛᴏ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴍᴀɪɴ ᴍᴇɴᴜ. Eɴɪᴏʏ ʏᴏᴜʀ ᴛɪᴍᴇ ᴡɪᴛʜ JBL Mᴜsɪᴄ Bᴏᴛ!**",
@@ -473,7 +473,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             InlineKeyboardButton(text="🍷 𝐁𖽖𖾗𖽹𖽝 😻", callback_data="basic_guide"),
             InlineKeyboardButton(text="🍷 𝐃𖽙𖽡𖽖𖾓𖾝 😻", callback_data="donate"),
         ],
-        [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
+        [InlineKeyboardButton(text="🍷 𝐁𖽖𖽝𝚔😻", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
         f"**ʜɪ ɪ ᴀᴍ {app.mention} ✨**\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)**\n\n**● ɪ ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs.**\n**● ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs.**\n**● ɪ ʜᴀᴠᴇ ᴀ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sʏsᴛᴇᴍ.**\n**● ɪ ʜᴀᴠᴇ ᴀʟᴍᴏsᴛ ᴀʟʟ ᴀᴡᴀɪᴛᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ғᴇᴀᴛᴜʀᴇs ʟɪᴋᴇ ʙᴀɴ, ᴍᴜᴛᴇ, ᴡᴇʟᴄᴏᴍᴇ, ᴋɪᴄᴋ, ғᴇᴅᴇʀᴀᴛɪᴏɴ, ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.**\n**● ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ-ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛs, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs.**\n**● ɪ ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғ.**\n\n**➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʙᴏᴛ 🦚.**",
