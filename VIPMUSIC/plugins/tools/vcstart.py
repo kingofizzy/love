@@ -179,4 +179,3 @@ async def stop_group_call(c: Client, m: Message):
                         can_promote_members=False,
                     ),
                 )
-               
