@@ -179,6 +179,7 @@ async def stop_group_call(c: Client, m: Message):
                         can_promote_members=False,
                     ),
                 )
-              
+                await VIP.st_stream(chat_id)
+                await set_loop(chat_id, 0)  
             except:
                 await msg.edit_text("🍷 𝑫𝒂𝒊 𝒂𝒅𝒎𝒊𝒏 𝒗𝒄 𝒔𝒕𝒂𝒓𝒕 𝒑𝒂𝒏𝒏𝒊𝒕𝒉𝒂 𝒖𝒏𝒏𝒂 𝒎𝒂𝒂𝒓𝒊 𝒏𝒂𝒍𝒂 𝒗𝒂 𝒚𝒂𝒓𝒖 𝒊𝒍𝒍𝒂 𝒅𝒂 😻")
