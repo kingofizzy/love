@@ -141,7 +141,6 @@ async def stop_group_call(c: Client, m: Message):
             )
         ):
           
-    except Exception as e:
         if "GROUPCALL_FORBIDDEN" in str(e):
             try:
                 await app.promote_chat_member(
