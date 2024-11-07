@@ -99,16 +99,6 @@ async def _clear_(chat_id):
     except Exception as e:
         await app.send_message(chat_id, f"Error fetching admins: {e}")
 
-    # Sending the final message
-    try:
-        await app.send_message(
-            chat_id,
-            f"**🤧💫 𝑉𝑐 𝐸𝑣𝑎𝑛𝑑𝑎 𝐸𝑛𝑑 𝑃𝑎𝑛𝑛𝑢𝑛𝑎𝑡ℎ𝑢 🥹🤌🏻**{text}",
-        )
-    except Exception as e:
-        print(f"Error sending message: {e}")
-
-
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
