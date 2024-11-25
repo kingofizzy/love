@@ -104,7 +104,7 @@ async def gen_thumb(videoid):
         font = ImageFont.truetype("assets/font2.ttf", 47)
         font2 = ImageFont.truetype("assets/font2.ttf", 48)
         font3 = ImageFont.truetype("assets/font2.ttf", 30)
-        Mysticaldevs = ImageFont.truetype("assets/font2.ttf", 10)
+        font4 = ImageFont.truetype("assets/font2.ttf", 10)
         para = textwrap.wrap(title, width=33)
         try:
             if para[0]:
@@ -113,8 +113,8 @@ async def gen_thumb(videoid):
                     f"Powered By :- Izzyyir",
                     fill="white",
                     stroke_width=1,
-                    stroke_fill="black",
-                    font=Mysticaldevs,
+                    stroke_fill="orange",
+                    font=font4,
                 ),
                 draw.text(
                     (570, 210),
@@ -155,7 +155,7 @@ async def gen_thumb(videoid):
                     fill="white",
                     stroke_width=1,
                     stroke_fill="black",
-                    font=Mysticaldevs,
+                    font=font4,
                 ),
                 draw.text(
                     (570, 210),
