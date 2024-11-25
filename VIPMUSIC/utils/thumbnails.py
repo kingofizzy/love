@@ -89,8 +89,8 @@ async def gen_thumb(videoid):
         bg = Image.open(f"assets/murali.png")
         image1 = youtube.resize((1280, 720))
         image2 = image1.convert("RGBA")
-        background = image2.filter(filter=ImageFilter.BoxBlur(30))
-        enhancer = ImageEnhance.Brightness(background)
+        #background = image2.filter(filter=ImageFilter.BoxBlur(30))
+        enhancer = ImageEnhance.Brightness(image2)
         background = enhancer.enhance(1.1)
         y = circle(zyoutube).resize((405, 405))
         enhancer = ImageEnhance.Brightness(y)
@@ -107,6 +107,14 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=33)
         try:
             if para[0]:
+                draw.text(
+                    (60, 60),
+                    f"Powered By :- Izzyyir",
+                    fill="white",
+                    stroke_width=1,
+                    stroke_fill="black",
+                    font=font,
+                ),
                 draw.text(
                     (570, 210),
                     f"Title: {para[0]}",
@@ -140,6 +148,14 @@ async def gen_thumb(videoid):
                    font=font3,
                 )
             else:
+                draw.text(
+                    (60, 60),
+                    f"Powered By :- Izzyyir",
+                    fill="white",
+                    stroke_width=1,
+                    stroke_fill="black",
+                    font=font,
+                ),
                 draw.text(
                     (570, 210),
                     f"Title: {para[0]}",
