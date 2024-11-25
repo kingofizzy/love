@@ -84,21 +84,20 @@ async def gen_thumb(videoid):
 
         
 
-        youtube = Image.open(f"assets/backthumb.png")
+        backgroundM = Image.open(f"assets/backthumb.png")
         zyoutube = Image.open(f"cache/thumb{videoid}.png")
         bg = Image.open(f"assets/murali.png")
-        image1 = youtube.resize((1280, 720))
-        image2 = image1.convert("RGBA")
-        background = image2.filter(filter=ImageFilter.BoxBlur(30))
-        enhancer = ImageEnhance.Brightness(background)
-        background = enhancer.enhance(1.1)
+        image1 = backgroundM.resize((1280, 720))
+         
+          
+        
         y = circle(zyoutube).resize((405, 405))
         enhancer = ImageEnhance.Brightness(y)
         y = enhancer.enhance(1.1)
         background.paste(y, (96, 144), mask=y)  
         image3 = bg.resize((1280, 720))
         image5 = image3.convert("RGBA")
-        result_img = Image.alpha_composite(background, image5)
+        result_img = Image.alpha_composite(image1, image5)
         
         draw = ImageDraw.Draw(result_img)
         font = ImageFont.truetype("assets/font2.ttf", 47)
