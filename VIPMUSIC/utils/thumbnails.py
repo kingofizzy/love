@@ -109,7 +109,7 @@ async def gen_thumb(videoid):
         try:
             if para[0]:
                 draw.text(
-                    (50, 32),
+                    (20, 22),
                     f"Powered By :- Izzyyir",
                     fill="white",
                     stroke_width=1,
@@ -150,7 +150,7 @@ async def gen_thumb(videoid):
                 )
             else:
                 draw.text(
-                    (50, 32),
+                    (20, 22),
                     f"Powered By :- Izzyyir",
                     fill="white",
                     stroke_width=1,
