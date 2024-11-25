@@ -198,7 +198,7 @@ async def gen_thumb(videoid):
             pass
             
         result_img.save(f"cache/{videoid}.png")
-        return f"cache/{videoid}..png"
+        return f"cache/{videoid}.png"
 
     except Exception as e:
         print(e)
