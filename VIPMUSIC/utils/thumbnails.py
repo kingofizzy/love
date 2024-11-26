@@ -104,7 +104,7 @@ async def gen_thumb(videoid):
         font = ImageFont.truetype("assets/font2.ttf", 47)
         font2 = ImageFont.truetype("assets/font2.ttf", 48)
         font3 = ImageFont.truetype("assets/font2.ttf", 30)
-        font4 = ImageFont.truetype("assets/font2.ttf", 10)
+        font4 = ImageFont.truetype("assets/font2.ttf", 30)
         para = textwrap.wrap(title, width=33)
         try:
             if para[0]:
