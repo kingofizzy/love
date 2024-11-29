@@ -36,7 +36,7 @@ async def handle_join_request(client, request: ChatJoinRequest):
         [[InlineKeyboardButton(text, callback_data=data) for text, data in buttons.items()]]
     )
 
-    await client.send_message(
+    await app.send_message(
         chat_id=chat.id,
         text=text,
         reply_markup=keyboard
