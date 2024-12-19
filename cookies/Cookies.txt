@@ -1,0 +1,24 @@
+# Netscape HTTP Cookie File
+# This is a generated file! Do not edit.
+
+# domain  include_subdomains  path  secure  expiration_date  name  value
+.youtube.com	TRUE	/	TRUE	1765812981	__Secure-1PSIDCC	AKEyXzVuILUT5z9LyKtNbxx9V7JRztd9OdLwcfAunfbfubDELA6pTmQ1f-n7RBG5ily-yMTu
+.youtube.com	TRUE	/	TRUE	1768836872	SAPISID	VwVWMp145Ua8iKWw/A7izSYwTXkrj3pzF2
+.youtube.com	TRUE	/	FALSE	1768836872	APISID	7wjSqAhki9r-hEFx/A37NZdLs9SNwGapky
+.youtube.com	TRUE	/	TRUE	1768836872	SSID	ATJRtVOxz43eZ_g6c
+.youtube.com	TRUE	/	TRUE	1768836872	__Secure-3PAPISID	VwVWMp145Ua8iKWw/A7izSYwTXkrj3pzF2
+.youtube.com	TRUE	/	TRUE	1748593355	__Secure-ROLLOUT_TOKEN	CLvKq7-Oh72kogEQneKdjsqAigMY4s7hkpKGigM%3D
+.youtube.com	TRUE	/	TRUE	1768836872	__Secure-1PSID	g.a000rQg6sCxhKXk_UNU8GWzUXglFPl-PGVJmkaqqn_KsoFgoybhZY088hNP4ZCgWwjIXa9a8_gACgYKAeoSARYSFQHGX2MiuQd9mbMHZCcqyr-4gOi5jBoVAUF8yKrAWRqDa_HGwEeugmmE1ypo0076
+.youtube.com	TRUE	/	FALSE	1765812981	SIDCC	AKEyXzVvjCUpXcKe1vhM1C6XbaUJf__-NE90rcqIEIKfK2ksjVYFSIBPSwveVjJ0zMK_ByRa_w
+.youtube.com	TRUE	/	FALSE	1768836872	HSID	A-WG6akWZ3lkH_Dxc
+.youtube.com	TRUE	/	TRUE	1768836872	__Secure-3PSID	g.a000rQg6sCxhKXk_UNU8GWzUXglFPl-PGVJmkaqqn_KsoFgoybhZXHJE_mHmK9LPheKhqzm2tQACgYKAWkSARYSFQHGX2Mi0bwdvEkUcTMPdhvHOeQsFRoVAUF8yKqPlx0LGotHzrDoBVDFgx0E0076
+.youtube.com	TRUE	/	TRUE	1765812872	__Secure-1PSIDTS	sidts-CjEB7wV3sQ-XfGJbjtnY1iXSI5pJ0MbwzaG--7rPGFZIOcIXC_JAvalD-eSNMpntUEzgEAA
+.youtube.com	TRUE	/	TRUE	1768836872	__Secure-1PAPISID	VwVWMp145Ua8iKWw/A7izSYwTXkrj3pzF2
+.youtube.com	TRUE	/	FALSE	1768836872	SID	g.a000rQg6sCxhKXk_UNU8GWzUXglFPl-PGVJmkaqqn_KsoFgoybhZXv84LfDopyc7w83xwNesWgACgYKAQESARYSFQHGX2Mia5Kh7Xlct-43jG8lwZcoGxoVAUF8yKpX85857kAtDy0zxDnaFZew0076
+.youtube.com	TRUE	/	TRUE	1734278525	GPS	1
+.youtube.com	TRUE	/	TRUE	1765812981	__Secure-3PSIDCC	AKEyXzVOekjQ9t-lezfh8oTmtyRwP4X0Hh6Y4BtryBHOc5FNVMQkkSrwzZNWV6QY4fWuwhzuCw
+.youtube.com	TRUE	/	TRUE	0	YSC	fbZSDGPvEIY
+.youtube.com	TRUE	/	TRUE	1768836728	PREF	f7=100&tz=Asia.Calcutta&f5=20000
+.youtube.com	TRUE	/	TRUE	1749828725	VISITOR_PRIVACY_METADATA	CgJJThIEGgAgNQ%3D%3D
+.youtube.com	TRUE	/	TRUE	1765812872	__Secure-3PSIDTS	sidts-CjEB7wV3sQ-XfGJbjtnY1iXSI5pJ0MbwzaG--7rPGFZIOcIXC_JAvalD-eSNMpntUEzgEAA
+.youtube.com	TRUE	/	TRUE	1749828725	VISITOR_INFO1_LIVE	mq9jSFxn5WI
