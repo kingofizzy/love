@@ -1,4 +1,4 @@
-
+ni
 import os
 import re
 from os import getenv
@@ -111,7 +111,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 # Refer to https://i.postimg.cc/Bbg3LQTG/image.png
 SET_CMDS = getenv("SET_CMDS", "False")
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
-STRING1 = "AQGhfYIAkRfytEvM1lrArqNVKcDpqry4XURHGCZsWIjWN6qYur9rfS7PIXsDibZMDBKI9up-WLMhed8vq40zK1PiPhto52gYT705oQdDsFYNAABgd4XXfAs162dvn7tt3AyrOzduOCJGo9Aavn-DFuPBqSFJHix7e6Uz5HQu88d2QjNMfnVclxudZnL3ydt7kgKws7H50liX-agDuP6DixJS-jQQP6dHBwm0kpBPlRLCJax_MxqPVQZrKIsAhL0RRSGcI-bNjnNM0wlhw2yoyH3ziXjQcELfEDlhvRKfCAjuuNyZgTtX52nja7YVY8lFxff10GjoJAB_Lc0CT-hVWTcrQprE5gAAAAFBciS3AA"
+STRING1 = "BQGhfYIAKext88ol4EGX6z6MoE16htabgsuTlWRU7f_etHOZT7b7J_xc0-FwvoE0sY4Wx88z2P9hjiIrUjM_wSYYgJWjH6aO6VoZLcqQWCqZsy2ZGnNrNdNYzWhY9NhpbnomK0ohnVoJfgktbDWDH_aG2E7rgqhnYwBDolJZBpK_wDjV-QFdJB42uUlGH9XQ_RSR_VZRl0ROU17gpgQhSNr2ad_revrkr316nhOA8uSKF7ZDriNbwG0VnxNnR6Rl2JsluQmi3i7_1g9E-u9rNrumNP7siLmPfVvwp1U8Ufy5chu_ew7XneNRkqB9OcJvvMKeLTtnuvgwxORjHCcCkJJ3xZIb2gAAAAG7JHBWAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
