@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 from pyrogram import filters
 load_dotenv()
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "28338127"))
-API_HASH = getenv("API_HASH", "c4cb64de16a18f8685a31716a0e2480e")
+API_ID = int(getenv("API_ID", "20185438"))
+API_HASH = getenv("API_HASH", "c8f3cb6db40e4eb6e7e43866660e54ac")
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "7932576136:AAF73AmqoNlAj66aMhcqszQmRLi_m5MHWJ0")
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
