@@ -78,7 +78,7 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=f"{bar}",
-                url=f"https://t.me/tamila_chatting_tamil"",
+                url=f"https://t.me/tamila_chatting_tamil",
             )
         ],
         [
