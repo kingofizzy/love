@@ -66,10 +66,10 @@ AUTO_GCAST = os.getenv("AUTO_GCAST", "on")
 AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/muiac_support_chat_cute_girl"
+    "SUPPORT_CHANNEL", "https://t.me/beast_fox_network"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/izzy_tamil_junction"
+    "SUPPORT_GROUP", "https://t.me/tamila_chatting_tamil"
 )  # Example:- https://t.me/TG_FRIENDSS
 SUPPORT_CHAT = getenv(
     "SUPPORT_GROUP", "https://t.me/muiac_support_chat_cute_girl"
